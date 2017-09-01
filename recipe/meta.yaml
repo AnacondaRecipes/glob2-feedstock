@@ -30,6 +30,14 @@ about:
   license: BSD-2-Clause
   license_file: LICENSE
   summary: Version of the glob module that supports recursion via **, and can capture patterns.
+  
+  description: |
+    The glob module finds all the pathnames matching a specified pattern according to the rules 
+    used by the Unix shell, although results are returned in arbitrary order. No tilde expansion 
+    is done, but *, ?, and character ranges expressed with [] will be correctly matched.
+  doc_url: https://docs.python.org/3/library/glob.html
+  dev_url: https://github.com/miracle2k/python-glob2
+  doc_source_url: 
 
 extra:
   recipe-maintainers:
